@@ -1,0 +1,27 @@
+site_name: The Virtual Avatar Operation
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+    - scheme: slate  # 어두운 테마
+      primary: deep purple
+      accent: purple
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+  features:
+    - navigation.footer
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+
+nav:
+  - 소개: index.md
+  - 단계별 가이드:
+      - 1단계 - 아이폰에서의 설정: step-1-requirements.md
+      - 2단계 - PC에서의 설정: step-2-iphone-setup.md
+      - 3단계 - VSeeFace 설정: step-3-vseeface-setup.md
+      - 4단계 - 자주 묻는 질문 (FAQ): step-4-troubleshooting.md
