@@ -1,0 +1,26 @@
+/* 배경에 살짝 보라색 오로라 느낌 */
+body {
+    background: linear-gradient(to bottom, #0d0c1d, #1a0826);
+  }
+  
+  /* 제목에 신비한 글로우 효과 */
+  .md-typeset h1, 
+  .md-typeset h2 {
+    color: #bb86fc;
+    text-shadow: 0 0 5px #bb86fc88, 0 0 10px #9c27b0aa;
+  }
+  
+  /* 링크 색상도 보랏빛으로 */
+  .md-typeset a {
+    color: #b892ea;
+  }
+  
+  .md-nav__link--active {
+    color: #d0b3ff;
+  }
+  
+  /* 코드 블록에도 어두운 배경과 보라 강조 */
+  code, pre {
+    background-color: #1c1c2e;
+    color: #caa9f5;
+  }  
