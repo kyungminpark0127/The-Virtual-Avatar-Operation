@@ -1,14 +1,20 @@
-site_name: The Virtual Avatar Operation
 theme:
   name: material
   palette:
-    - media: "(prefers-color-scheme: dark)"
-    - scheme: slate  # 어두운 테마
+    - scheme: slate  # 다크 모드
       primary: deep purple
       accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+    - scheme: default  # 라이트 모드
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
   logo: assets/logo.png
   favicon: assets/favicon.ico
-
   features:
     - navigation.footer
 
